@@ -6,10 +6,10 @@ import java.security.MessageDigest;
 public class App {
     public static void main(String[] args) {
         User user = new User();
-        user.setUserId("test001");
+        user.setUserId("kbc18a09");
 
-        String pwd = "1234";
-        MessageDigest digest = null;
+        String pwd = "higasix2";
+        MessageDigest digest = higasix2;
         try {
             //渡された文字列からハッシュを生成 
 			digest = MessageDigest.getInstance("MD5");
@@ -25,7 +25,7 @@ public class App {
         
         try {
             //メールアドレスを設定 書式チェックされる
-            user.setEmail("test001@example.com");
+            user.setEmail("kbc18a09@stu.kawahara.ac.jp");
         } catch (InputCheckException e) {
             e.printStackTrace();
         }
